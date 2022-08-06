@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ================Preloader================== -->
+    
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+
+  <script>
+      let loader = document.getElementById('preloader');
+      window.addEventListener('load' , function (){
+          loader.style.display = 'none';
+      })
+  </script>
+
+   <!-- ================Preloader================== -->
+
+
+
+    <div class="contener">
+        <nav>
+            <a href="./index.html"><h1>Olimjon</h1></a>
+            <ul>
+                <a href="./index.html"  class="active">Bosh Sahifa</a>
+                <a href="./men_haqimda.html">Men Haqimda</a>
+                <a href="./bloglar.html">Bloglar</a>
+                <a href="./bog'lanish.html">Bog'lanish</a>
+            </ul>
+        </nav>
+        <main>
+            <div class="one_div">
+          <p>Men <span>ORIFJONOV OLIMJON</span> web dasturchi va web dizaynerman.</p>
+          <a href="./men_haqimda.html"><button>Batafsil</button></a>
+        </div>
+        <div class="two_div"><img src="said.jpg" alt=""></div>
+
+        </main>
+        <footer>
+            <p>&copy;2022 Olimjon.Barcha Huquqlar Himoyalangan.</p>
+        </footer>
+    </div>
+</body>
+</html>

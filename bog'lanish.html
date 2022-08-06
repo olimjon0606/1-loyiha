@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d73934e60a.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+<!-- ================Preloader================== -->
+    
+<div id="preloader">
+    <div id="loader"></div>
+</div>
+ 
+
+
+
+<script>
+  let loader = document.getElementById('preloader');
+  window.addEventListener('load' , function (){
+      loader.style.display = 'none';
+  })
+</script>
+
+<!-- ================Preloader================== -->
+
+
+
+    <div class="contener">
+        <nav>
+            <a href="./index.html">
+                <h1>Olimjon</h1>
+            </a>
+            <ul>
+                <a href="./index.html">Bosh Sahifa</a>
+                <a href="./men_haqimda.html">Men Haqimda</a>
+                <a href="./bloglar.html">Bloglar</a>
+                <a href="./bog'lanish.html" class="active">Bog'lanish</a>
+            </ul>
+        </nav>
+
+        <div class="boglanish_main">
+            <h1>BOG'LANISH</h1>
+            <div class="con">
+            <form>
+                <div class="input">
+                <div class="row">
+                    <div class="input-group">
+                        <input type="text" id="name" required>
+                        <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="number" required>
+                        <label for="number"> <i class="fas fa-phone-square-alt"></i> Phone Number</label>
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <input class="email" type="email" id="email" required>
+                    <label for="email"><i class="fas fa-envelope"></i> Email ID</label>
+                </div>
+                <div class="input-group">
+                    <textarea  id="message"  rows="8" required></textarea>
+                    <label for="message"><i class="fas fa-comments"></i> Your Message</label>
+                </div>
+                
+                <button class="button" type="submit">SUBMIT <i class="fas fa-paper-plane"></i></button>
+            </div>
+                <div class="maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d396.87169191165026!2d66.19413957703173!3d40.017077205963844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4df579ed09a569%3A0x7064f7a39d59ab60!2zS2F0dGFxb-KAmHJn4oCYb24gdHVtYW5pLCBPYHpiZWtpc3Rvbg!5e1!3m2!1suz!2sid!4v1655104874532!5m2!1suz!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </form>
+        </div>
+
+
+            
+        </div>
+        <footer>
+            <p>&copy;2022 Olimjon.Barcha Huquqlar Himoyalangan.</p>
+        </footer>
+        </div>
+</body>
+
+</html>
